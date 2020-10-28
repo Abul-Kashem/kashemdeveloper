@@ -1,19 +1,84 @@
-body{
+body {
     font-family: 'Merriweather', serif;
+    margin: 0;
 }
-h1{
+
+h1 {
     font-size: 50px;
     font-weight: 400;
 }
-.name-highlight{
-    color: cyan;
+p{
+    line-height: 25px;
+    color: dimgray;
 }
-.half-width{
+a{
+    margin-top: 40px;
+}
+
+.text-highlight {
+    color: goldenrod;
+}
+
+section {
+    height: 500px;
+    margin-bottom: 100px;
+}
+.text-center{
+    text-align: center;
+    font-size: 50px;
+    color: goldenrod;
+}
+.top-section {
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.half-width {
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.half-width img{
+
+.half-width img {
     width: 100%;
+}
+.btn-default{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.experience-area{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single-box{
+    box-shadow: 5px 5px 18px gray ;
+    height: 80%;
+    background-color: #fff;
+}
+#left-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#right-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    margin: 70px 0;
 }
